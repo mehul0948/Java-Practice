@@ -26,6 +26,5 @@ public class Day33 {
     Thread a2 = new Thread(t2);
     a1.start();
     a2.start();
-
    } 
 }
