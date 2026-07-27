@@ -20,7 +20,7 @@ public class Day35 {
         Myth1 n2 = new Myth1("Mridul");
         Myth1 n3 = new Myth1("Rani");
         Myth1 n4 = new Myth1("Dushyant");
-        n1.setPriority(10);
+        n1.setPriority(Thread.MAX_PRIORITY);
         n2.setPriority(Thread.MIN_PRIORITY);
         n3.setPriority(Thread.NORM_PRIORITY);
         n4.setPriority(Thread.NORM_PRIORITY);
