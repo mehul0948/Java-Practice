@@ -1,5 +1,8 @@
 // Exception Handling
 // Try-catch
+// Try -> It means, Try is trying to execute the line of code where we use try block . If code is succesfully compiled then ok . 
+//        If there are exception occurs then Try block give that exception to catch block...
+// Catch -> Catch block is catch tha exception which is given by Try block after that the catch block start excetion line by line
 
 
 public class Day36 {
@@ -13,9 +16,7 @@ public class Day36 {
 
 
     // there are Arithmetical exception occus if we divide any value by 0  >> So we use Try catch block
-    // Try -> It means, Try is trying to execute the line of code where we use try block . If code is succesfully compiled then ok . 
-    //        If there are exception occurs then Try block give that exception to catch block...
-    // Catch -> Catch block is catch tha exception which is given by Try block after that the catch block start excetion line by line 
+     
 
     // Then we put 0 in b
     /*
