@@ -5,12 +5,12 @@ interface Horn {
 interface Brake {
     void braking();  
 }
-class Vehicle{
+class Vehicle1{
     public void start(){
         System.out.println("Starting...");
     }
 }
-class Bmw extends Vehicle implements Horn ,Brake{
+class Bmw extends Vehicle1 implements Horn ,Brake{
     @Override
     public void playHorn(){
         System.out.println("Playing Horn...");
