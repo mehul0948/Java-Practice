@@ -27,5 +27,7 @@ public class Day37 {
             System.out.println("Exception occurs");
             System.out.println(e);
         }
+        System.out.println("------> End of the Program <------");
+        sc.close();
     }
 }
