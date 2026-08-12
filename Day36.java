@@ -23,7 +23,7 @@ public class Day36 {
     int a=6900;
     int b=0;
     int c= a/b;
-    System.out.println(c);        // there are exception occurs
+    System.out.println(c);        // there is exception occurs
     */
 
     // Now we use Try-catch block
@@ -39,7 +39,7 @@ public class Day36 {
     }
     // and after this the next line of codes starting Execute
 
-    System.out.println("------- End of Program --------");
+    System.out.println("<-------> End of Program <-------->");
    
 
     
